@@ -1,0 +1,160 @@
+{
+	"id": "4c9abe60-9d68-33df-9344-bf13db099f9e",
+	"name": "exchange-api",
+	"description": "",
+	"order": [
+		"92aabc5f-e26c-f2d0-30f4-6b96a9a319de",
+		"ed5c2810-78f8-f8c9-51ac-05d8109ad198",
+		"2826c24a-c159-880f-6a57-291870114cc6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1629410014603,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2826c24a-c159-880f-6a57-291870114cc6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/conversion?txnDate=2021-08-20T14:56:17.189116&txnId=2&page=0&size=10",
+			"queryParams": [
+				{
+					"key": "txnDate",
+					"value": "2021-08-20T14:56:17.189116",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "txnId",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "10",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1629460640510,
+			"name": "transaction-history",
+			"description": "",
+			"collectionId": "4c9abe60-9d68-33df-9344-bf13db099f9e",
+			"responses": []
+		},
+		{
+			"id": "92aabc5f-e26c-f2d0-30f4-6b96a9a319de",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/exchange?sourceCurrency=EUR&targetCurrency=AUD,USD",
+			"queryParams": [
+				{
+					"key": "sourceCurrency",
+					"value": "EUR",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "targetCurrency",
+					"value": "AUD,USD",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1629410733260,
+			"name": "exchange-rate",
+			"description": "",
+			"collectionId": "4c9abe60-9d68-33df-9344-bf13db099f9e",
+			"responses": []
+		},
+		{
+			"id": "ed5c2810-78f8-f8c9-51ac-05d8109ad198",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/exchange?sourceCurrency=EUR&targetCurrency=AUD,USD",
+			"queryParams": [
+				{
+					"key": "sourceCurrency",
+					"value": "EUR",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "targetCurrency",
+					"value": "AUD,USD",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1629410733260,
+			"name": "conversion",
+			"description": "",
+			"collectionId": "4c9abe60-9d68-33df-9344-bf13db099f9e",
+			"responses": []
+		}
+	]
+}
