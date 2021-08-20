@@ -1,6 +1,5 @@
 package com.hippalus.exchangeapi.infra.common.jpa.entity;
 
-import com.hippalus.exchangeapi.domain.conversion.model.Conversion;
 import java.time.LocalDateTime;
 import javax.persistence.Column;
 import javax.persistence.EntityListeners;
@@ -34,5 +33,4 @@ public abstract class AbstractAuditingEntity {
   @Column
   private LocalDateTime updatedAt;
 
-  public abstract Conversion toModel();
 }

@@ -35,8 +35,6 @@ public class ConversionEntity extends AbstractAuditingEntity {
   @Column(nullable = false)
   private BigDecimal result;
 
-
-  @Override
   public Conversion toModel() {
     return Conversion.builder()
         .from(source)
